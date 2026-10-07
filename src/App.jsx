@@ -6,6 +6,8 @@ import SPECIALTIES from "./components/Specialties";
 import PROCESSLIST from "./components/ProcessList";
 import PROJECTS from "./components/Projects";
 import FOOTER from "./components/Footer";
+import CONTACTUS from "./components/ContactUs";
+import ABOUTME from "./components/AboutMe";
 import "./App.css";
 
 function App() {
@@ -27,35 +29,11 @@ function App() {
 
       <PROJECTS/>
 
-        <section id="sobre-mi" className="about-section">
-          <div>
-            <p className="section-label">04 — SOBRE MÍ</p>
+      <ABOUTME/>
 
-            <h2>
-              TECH SOLUTIONS
-            </h2>
-          </div>
-
-          <p>
-            Ingeniero en Tecnologías de la Información y Comunicaciones
-            enfocado en la integración de software, redes e infraestructura.
-          </p>
-        </section>
-
-        <section id="contacto" className="contact-section">
-          <p className="section-label">05 — CONTACTO</p>
-
-          <h2>
-            ¿Tienes un proyecto o un
-            <span> problema tecnológico?</span>
-          </h2>
-
-          <a href="mailto:email@example.com">
-            Hablemos →
-          </a>
-        </section>
+      <CONTACTUS/>
+      
       </main>
-
       <FOOTER/>
 
     </div>
